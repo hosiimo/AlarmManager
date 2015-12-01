@@ -1,7 +1,9 @@
 # AlarmManager
 AlarmManagerServiceはAndroidのAlarmを管理している部分です。
+
 具体的な仕様としては
 com.google,line,facebook,twitter,poll_alarm_ev
+
 の名前を持つAlarmの動作を通常のAlarmと別に処理させることで
 通信処理にかかる負荷を減らすというものです。
 
